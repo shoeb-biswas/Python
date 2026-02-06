@@ -1,0 +1,5 @@
+A=(input())
+B=float(input())
+C=float(input())
+x=(B+(C*0.15))
+print(f"TOTAL = R$ {x:.2f}")
