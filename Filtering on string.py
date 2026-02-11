@@ -1,0 +1,10 @@
+import pandas as pd
+
+data = {
+    "Name": ["Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Hannah","Saku"],
+    "City": ["New York", "Los Angeles", "Newark", "Boston", "New Delhi", "Chicago", "New Orleans", "Houston","A Los Carol"],
+    "Department": ["HR", "IT", "Finance", "IT", "HR", "Marketing", "Finance", "HR", "HR"],
+    "Salary": [50000, 60000, 55000, 70000, 52000, 58000, 62000, 51000,1245]
+}
+
+df = pd.DataFrame(data)
