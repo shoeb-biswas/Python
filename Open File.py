@@ -1,0 +1,5 @@
+file = open("./sample_data/meri_marji.txt","r")
+content = file.readlines()
+print(content)
+file.close()
+print(file.closed)
