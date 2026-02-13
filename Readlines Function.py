@@ -1,0 +1,5 @@
+file = open("./sample_data/meri_marji.txt","r")
+content = file.readlines()
+print(content)
+filtering = filter(lambda x: len(x)>=1,content)
+print(filtering)
