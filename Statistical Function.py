@@ -1,0 +1,6 @@
+df1['Data Structure Marks'].sum()
+df1['Data Structure Marks'].min()
+df1['Data Structure Marks'].max()
+print(df1['Data Structure Marks'].mean())
+print(df1['Data Structure Marks'].median())
+df1['Data Structure Marks'].mode()
