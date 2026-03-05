@@ -1,0 +1,7 @@
+sns.histplot(data = student1, x = 'attendance_rate')
+sns.histplot(data = student1, x = 'attendance_rate', hue = 'gender')
+sns.histplot(data = student1, x = 'attendance_rate', hue = 'gender', bins = 15)
+sns.histplot(data = student1, x = 'attendance_rate', hue = 'gender', bins = 15, element= 'step')
+sns.displot(data = student1, x = 'attendance_rate')
+sns.displot(data = student1, x = 'attendance_rate', col = 'gender')
+sns.displot(data = student1, x = 'study_hours', col = 'gender')
