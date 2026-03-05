@@ -1,0 +1,10 @@
+tips_data = sns.load_dataset("tips")
+tips_data.head()
+
+sns.displot(kind = 'hist', data = tips_data, x = 'total_bill')
+sns.displot(kind = 'hist', data = tips_data, x = 'total_bill', bins = 20)
+sns.displot(kind = 'hist', data = tips_data, x = 'tip', bins = 20)
+sns.kdeplot(data = student1, x = 'attendance_rate')
+sns.kdeplot(data = tips_data, x = 'tip')
+sns.kdeplot(data = tips_data, x = 'tip', hue = 'sex')
+sns.kdeplot(data = tips_data, x = 'tip', hue = 'sex', fill = True)
