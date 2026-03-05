@@ -1,0 +1,7 @@
+sns.countplot(data = student1, x = 'gender')
+sns.countplot(data = student1, x = 'subject', hue = 'gender')
+sns.barplot(data = student1, x = 'gender')
+sns.barplot(data = student1, x = 'gender', y = 'Marks')
+sns.barplot(data = student1, x = 'gender', y = 'Marks',errorbar=None)
+sns.barplot(data = student1, x = 'gender', y = 'Marks',errorbar=None, estimator = np.median)
+sns.barplot(data = student1, x = 'gender', y = 'Marks',errorbar=None, estimator = np.max)
