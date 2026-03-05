@@ -1,0 +1,5 @@
+sns.scatterplot(data= student1, x= 'study_hours', y= 'test_score', hue = 'gender')
+sns.scatterplot(data= student1, x= 'study_hours', y= 'test_score', hue = 'gender')
+sns.relplot(kind = 'scatter', data= student1, x= 'study_hours', y= 'test_score', col = 'gender', row='hostel')
+sns.relplot(kind = 'scatter', data= student1, x= 'study_hours', y= 'test_score',col = 'week')
+sns.relplot(kind = 'scatter', data= student1, x= 'study_hours', y= 'test_score',col = 'week', col_wrap = 2 )
